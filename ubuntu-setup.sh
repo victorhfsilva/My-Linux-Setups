@@ -102,6 +102,9 @@ sudo pip3 install --upgrade youtube_dl
 #Install Git
 sudo apt install git -y
 
+#Install Curl
+sudo apt install curl -y
+
 #########
 # Vídeo #
 #########
