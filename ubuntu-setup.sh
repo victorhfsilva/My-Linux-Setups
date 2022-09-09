@@ -107,12 +107,13 @@ sudo apt install curl -y
 #
 
 #Install PostgreSQL
-sudo apt install postgresql
+sudo apt install postgresql -y
 
 #Install pgAdmin
 sudo curl https://www.pgadmin.org/static/packages_pgadmin_org.pub | sudo apt-key add
 sudo sh -c 'echo "deb https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/$(lsb_release -cs) pgadmin4 main" > /etc/apt/sources.list.d/pgadmin4.list && apt update'
-sudo apt install pgadmin4
+sudo apt install pgadmin4 -y
+sudo /usr/pgadmin4/bin/setup-web.sh
 
 #
 # Vídeo 
@@ -120,9 +121,3 @@ sudo apt install pgadmin4
 
 #Install OBS Studio
 sudo apt install obs-studio -y
-
-
-
-
-
-
