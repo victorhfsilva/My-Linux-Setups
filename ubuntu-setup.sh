@@ -91,14 +91,6 @@ sudo apt install curl -y
 # IDEs 
 #
 
-#Install JDK
-sudo apt install default-jdk -y
-
-#Install Netbeans
-sudo add-apt-repository "deb http://archive.ubuntu.com/ubuntu focal universe" -y
-sudo apt update
-sudo apt install netbeans -y
-
 #Install Jupyter-Lab
 pip install jupyterlab
 export PATH="$HOME/.local/bin:$PATH"
