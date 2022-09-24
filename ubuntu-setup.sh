@@ -87,6 +87,9 @@ sudo apt install git -y
 #Install Curl
 sudo apt install curl -y
 
+#Install libfuse2
+sudo apt install libfuse2 -y
+
 #
 # IDEs 
 #
