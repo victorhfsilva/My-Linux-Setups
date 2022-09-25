@@ -102,6 +102,13 @@ export PATH="$HOME/.local/bin:$PATH"
 sudo snap install pycharm-community --classic --edge
 
 #
+# Python Packages
+#
+
+#Install Pytest
+pip install -U pytest
+
+#
 # Databases 
 #
 
