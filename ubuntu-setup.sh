@@ -108,6 +108,12 @@ sudo snap install pycharm-community --classic --edge
 #Install Pytest
 pip install -U pytest
 
+#Install Flask
+pip3 install flask
+
+#Install Requests
+pip3 install requests
+
 #
 # Databases 
 #
